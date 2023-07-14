@@ -1,0 +1,93 @@
+body {
+  background-color: gray;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutInfo {
+  display: flex;
+  align-items: center;
+}
+
+.aboutText {
+  margin-left: 20px;
+}
+
+.aboutText h2 {
+  margin-top: 0;
+}
+
+section {
+  padding: 50px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.workHeader {
+  text-align: center;
+  width: 100%;
+}
+
+section#work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section#work .workExample {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: ease-in-out;
+}
+
+section#work .workExample:hover {
+  flex-basis: 40%;
+}
+
+section#work figure:hover {
+  transform: scale(1.1);
+}
+
+section#work img {
+  height: auto;
+  max-width: 100%;
+}
+
+section#work figcaption {
+  background-color: black;
+  margin-top: 10px;
+  padding: 10px;
+}
